@@ -19,3 +19,4 @@ EXPOSE 8000
 
 # 启动 Django 服务
 CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+#python3 /root/myapi_ye/manage.py runserver 0.0.0.0:8000
