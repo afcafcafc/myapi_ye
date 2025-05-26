@@ -9,6 +9,7 @@ RUN apt update && \
     pip install --upgrade pip && \
     pip install django && \
     git clone https://github.com/afcafcafc/myapi_ye.git
+    chmod +x /myapi_ye/N_m3u8DL-RE
 
 # 进入项目目录
 WORKDIR /root/myapi_ye
