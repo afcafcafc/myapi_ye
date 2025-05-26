@@ -60,7 +60,7 @@ def download(url,save_name='b',save_dir='/root/ye'):
     #         print(output.strip())  # 打印每一行输出
 
 
-url='https://surrit.com/c60d5afc-f6e0-408c-b12f-572936cbd657/720p/video.m3u8'
+url='https://upyun.luckly-mjw.cn/Assets/media-source/example/media/index.m3u8'
 download(url)
 # time.sleep(5)
 readproc()
