@@ -1,0 +1,25 @@
+﻿LOG 2025/05/26
+Save Path: /root/myapi_ye/Logs
+Task Start: 2025/05/26 09:34:01
+Task CommandLine: /root/myapi_ye/N_m3u8DL-RE https://surrit.com/6bde5b60-1bf8-41cf-8180-4226fa57b999/842x480/video.m3u8 --tmp-dir /root/ye/tmp/e7a2d320-3fba-48db-9108-096f7f560f30 --save-dir /root/ye/ --save-name 1 --thread-count 16 --download-retry-count 6 --ffmpeg-binary-path /usr/bin/ffmpeg --use-ffmpeg-concat-demuxer true
+
+09:34:01.106 INFO : N_m3u8DL-RE (Beta version) 20241203
+09:34:01.108 EXTRA: ffmpeg => /usr/bin/ffmpeg
+09:34:01.108 INFO : Loading URL: https://surrit.com/6bde5b60-1bf8-41cf-8180-4226fa57b999/842x480/video.m3u8
+09:34:01.770 INFO : Content Matched: HTTP Live Streaming
+09:34:01.771 INFO : Parsing streams...
+09:34:01.795 WARN : Writing meta json
+09:34:01.797 INFO : Extracted, there are 1 streams, with 1 basic streams, 0 audio streams, 0 subtitle streams
+09:34:01.798 INFO : Vid Kbps | 2211 Segments | ~02h27m20s
+09:34:01.806 INFO : Selected streams:
+09:34:01.806 INFO : Vid Kbps | 2211 Segments | ~02h27m20s
+09:34:01.807 WARN : Writing meta json
+09:34:01.809 INFO : Save Name: 1
+09:34:01.810 INFO : Start downloading...Vid Kbps
+09:34:02.421 WARN : Reading media info...
+09:34:02.600 INFO : [0x100]: Video, h264 (Main) ([27][0][0][0]), 842x474, 30 fps
+09:34:02.601 INFO : [0x101]: Audio, aac (LC) ([15][0][0][0]), 129 kb/s
+09:34:53.841 INFO : ffmpeg merging...
+09:34:53.842 WARN : 1.mp4 => 1.copy.mp4
+09:34:53.842 WARN : Segments more than 1800, start partial merge...
+09:35:02.866 INFO : Done
