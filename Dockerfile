@@ -8,7 +8,7 @@ RUN apt update && \
     apt install -y ffmpeg git python3-django python3-django-cors-headers&& \
     pip install --upgrade pip && \
     pip install django && \
-    git clone https://github.com/afcafcafc/myapi_ye.git
+    git clone https://github.com/afcafcafc/myapi_ye.git \
     chmod +x /myapi_ye/N_m3u8DL-RE
 
 # 进入项目目录
