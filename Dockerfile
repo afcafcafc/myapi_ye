@@ -5,9 +5,9 @@ WORKDIR /root
 
 # 安装依赖
 RUN apt update && \
-    apt install -y ffmpeg git python3-django python3-django-cors-headers&& \
-    #pip install --upgrade pip && \
-    #pip install django && \
+    apt install -y ffmpeg git && \
+    pip install --upgrade pip && \
+    pip install django django-cors-headers && \
     git clone https://github.com/afcafcafc/myapi_ye.git && \
     chmod +x /root/myapi_ye/N_m3u8DL-RE
 
